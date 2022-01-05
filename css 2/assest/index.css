@@ -1,0 +1,137 @@
+*,
+*::afterو
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 100%;
+}
+.top-nav {
+    height: 50px;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 8%;
+    float: left;
+}
+ul {
+    margin-left: 20%;
+    list-style-type: none;
+    float: left;
+}
+li {
+    margin: 0px 10px;
+    float: left;
+}
+li a {
+    height: 50px;
+    padding-top: 20px;
+    color:rgb(75, 154, 233) ;
+    text-decoration: none;
+    text-align: center; 
+}
+li a:hover {
+    border-top: 2px solid rgb(75, 154, 233);
+}
+.home {
+    height: 50px;
+    padding-top: 20px;
+    color: rgb(218, 218, 10);
+}
+.home:hover {
+    border-top: 2px solid rgb(218, 218, 10);
+}
+.bottom-nav {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(75, 154, 233);
+}
+.right-icon {
+    color:rgb(75, 154, 233) ;
+    float: right;
+    padding: 17px 15px;
+}
+/* ////////////////////////////////////////////////////////////////////////////// */
+.main-center::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.main-top {
+    text-align: center;
+}
+.main-center {
+    margin: 0px 250px;
+}
+.gallery {
+    object-fit: contain;
+    width: 300px;
+    height: 200px;
+}
+figure {
+    margin: 16px 10px;
+    float: left;
+    box-shadow: 2px 2px 5px rgb(187, 185, 185);
+}
+figcaption {
+    margin: 10px 0px 10px 10px;
+}
+
+/* .clearfix1::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.clearfix2::after {
+    display: block;
+    content: "";
+    clear: both;
+} */
+.view-more {
+    background-color: rgb(164, 255, 28);
+    border: none;
+    color: white;
+    padding: 15px 22px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0px 700px 120px 700px;
+}
+/* ///////////////////////////////////////////////////////////////////////////// */
+.top-footer {
+    height: 50px;
+    background-color: rgb(75, 154, 233);
+}
+.text-left {
+    color: white;
+    float: left;
+    margin-left: 80px;
+    padding-top: 8px;
+    font-size: 1.7rem
+}
+.right-section {
+    float: right;
+    margin-right: 80px;
+    padding-top: 15px;
+}
+input, .subscribe {
+    border: none;
+    padding: 5px;
+}
+.subscribe {
+    background-color: rgb(164, 255, 28);
+    color: rgb(251, 241, 241);
+}
+.main-footer {
+    height: 250px;
+}
+.bottom-footer {
+    height: 40px;
+    background-color: rgb(75, 154, 233);
+    text-align: center;
+    color: white;
+    font-size: 1.1rem;
+    padding-top: 15px;
+}
